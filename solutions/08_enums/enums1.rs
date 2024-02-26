@@ -5,12 +5,15 @@ enum Message {
     Echo,
     ChangeColor,
     Quit,
+    Echo,
+    Move,
+    ChangeColor
 }
 
 fn main() {
     println!("{:?}", Message::Resize);
-    println!("{:?}", Message::Move);
     println!("{:?}", Message::Echo);
+    println!("{:?}", Message::Move);
     println!("{:?}", Message::ChangeColor);
     println!("{:?}", Message::Quit);
 }
