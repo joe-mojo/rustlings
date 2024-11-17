@@ -1,7 +1,8 @@
-fn main() {
-    // TODO: Change the line below to fix the compiler error.
-    let x;
 
+    // TODO: Change the line below to fix the compiler error.
+
+fn main() {
+    let x: i8 = 10;
     if x == 10 {
         println!("x is ten!");
     } else {
